@@ -11,38 +11,104 @@
 
 .magic-square-inner-maru {
     box-sizing: border-box;
+    top: 1%;
+    left: 1%;
     position: absolute;
-    top: 5%;
-    left: 5%;
-    max-width: 180px;
-    max-height: 180px;
-    height: 180px;
-    width: 100%;
+    width: 98%;
+    height: 98%;
     border: 1px solid black;
     border-radius: 50%;
+}
+
+.magic-square-inner-maru::after {
+    box-sizing: border-box;
+    top: 2%;
+    left: 2%;
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    border: 1px solid black;
+    border-radius: 50%;
+    content: '';
 }
 
 .magic-square-inner-shikaku-1 {
     box-sizing: border-box;
     position: absolute;
-    top: 19%;
-    left: 19%;
-    max-width: 124px;
-    max-height: 124px;
-    height: 124px;
-    width: 100%;
+    top: 16%;
+    left: 16%;
+    height: 67%;
+    width: 67%;
     border: 1px solid black;
 }
 
 .magic-square-inner-shikaku-2 {
     box-sizing: border-box;
     position: absolute;
-    top: 19%;
-    left: 19%;
-    max-width: 124px;
-    max-height: 124px;
-    height: 124px;
-    width: 100%;
+    top: 16%;
+    left: 16%;
+    height: 67%;
+    width: 67%;
     border: 1px solid black;
     transform:rotate(45deg);
+}
+
+.magic-square-inner-shikaku-3 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 16%;
+    left: 16%;
+    height: 67%;
+    width: 67%;
+    border: 1px solid black;
+    transform:rotate(15deg);
+}
+
+.magic-square-inner-shikaku-4 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 16%;
+    left: 16%;
+    height: 67%;
+    width: 67%;
+    border: 1px solid black;
+    transform:rotate(30deg);
+}
+
+.magic-square-inner-shikaku-5 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 16%;
+    left: 16%;
+    height: 67%;
+    width: 67%;
+    border: 1px solid black;
+    transform:rotate(60deg);
+}
+
+.magic-square-inner-shikaku-6 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 16%;
+    left: 16%;
+    height: 67%;
+    width: 67%;
+    border: 1px solid black;
+    transform:rotate(75deg);
+}
+
+.magic-square-part-2 {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.magic-square-part-3 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
 }
