@@ -8,3 +8,41 @@
     border: 1px solid black;
     border-radius: 50%;
 }
+
+.magic-square-inner-maru {
+    box-sizing: border-box;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 180px;
+    max-height: 180px;
+    height: 180px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.magic-square-inner-shikaku-1 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 19%;
+    left: 19%;
+    max-width: 124px;
+    max-height: 124px;
+    height: 124px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.magic-square-inner-shikaku-2 {
+    box-sizing: border-box;
+    position: absolute;
+    top: 19%;
+    left: 19%;
+    max-width: 124px;
+    max-height: 124px;
+    height: 124px;
+    width: 100%;
+    border: 1px solid black;
+    transform:rotate(45deg);
+}
