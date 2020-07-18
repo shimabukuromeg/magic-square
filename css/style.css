@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
+    color: white;
     transform: perspective(200px) rotateX(50deg);
 }
 
@@ -51,11 +52,11 @@ body {
 
 .magic-square-inner-maru::after {
     box-sizing: border-box;
-    top: 2%;
-    left: 2%;
+    top: 4%;
+    left: 4%;
     position: absolute;
-    width: 96%;
-    height: 96%;
+    width: 92%;
+    height: 92%;
     border: 1px solid white;
     border-radius: 50%;
     content: '';
@@ -64,20 +65,20 @@ body {
 .magic-square-inner-shikaku-1 {
     box-sizing: border-box;
     position: absolute;
-    top: 16%;
-    left: 16%;
-    height: 67%;
-    width: 67%;
+    top: 18%;
+    left: 18%;
+    height: 64.5%;
+    width: 64.5%;
     border: 1px solid white;
 }
 
 .magic-square-inner-shikaku-2 {
     box-sizing: border-box;
     position: absolute;
-    top: 16%;
-    left: 16%;
-    height: 67%;
-    width: 67%;
+    top: 18%;
+    left: 18%;
+    height: 64.5%;
+    width: 64.5%;
     border: 1px solid white;
     transform:rotate(45deg);
 }
@@ -85,10 +86,10 @@ body {
 .magic-square-inner-shikaku-3 {
     box-sizing: border-box;
     position: absolute;
-    top: 16%;
-    left: 16%;
-    height: 67%;
-    width: 67%;
+    top: 18%;
+    left: 18%;
+    height: 64.5%;
+    width: 64.5%;
     border: 1px solid white;
     transform:rotate(15deg);
 }
@@ -96,10 +97,10 @@ body {
 .magic-square-inner-shikaku-4 {
     box-sizing: border-box;
     position: absolute;
-    top: 16%;
-    left: 16%;
-    height: 67%;
-    width: 67%;
+    top: 18%;
+    left: 18%;
+    height: 64.5%;
+    width: 64.5%;
     border: 1px solid white;
     transform:rotate(30deg);
 }
@@ -107,10 +108,10 @@ body {
 .magic-square-inner-shikaku-5 {
     box-sizing: border-box;
     position: absolute;
-    top: 16%;
-    left: 16%;
-    height: 67%;
-    width: 67%;
+    top: 18%;
+    left: 18%;
+    height: 64.5%;
+    width: 64.5%;
     border: 1px solid white;
     transform:rotate(60deg);
 }
@@ -118,10 +119,10 @@ body {
 .magic-square-inner-shikaku-6 {
     box-sizing: border-box;
     position: absolute;
-    top: 16%;
-    left: 16%;
-    height: 67%;
-    width: 67%;
+    top: 18%;
+    left: 18%;
+    height: 64.5%;
+    width: 64.5%;
     border: 1px solid white;
     transform:rotate(75deg);
 }
