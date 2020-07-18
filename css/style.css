@@ -9,7 +9,7 @@ body {
     align-items: center;
     background-color: black;
     color: white;
-    transform: perspective(200px) rotateX(50deg);
+    transform: perspective(180px) rotateX(50deg);
 }
 
 .magic-square {
@@ -22,7 +22,7 @@ body {
     border: 1px solid white;
     border-radius: 50%;
     animation: magicSquare 10s linear infinite;
-    box-shadow: 10px 5px 5px rgb(151, 112, 189);
+    box-shadow: 0 0 20px rgb(151, 112, 189);
 }
 
 .magic-square:hover {
@@ -143,3 +143,119 @@ body {
     left: 25%;
 }
 
+.moji-12 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.moji-1 {
+    position: absolute;
+    top: 17%;
+    left: 67%;
+}
+
+.moji-2 {
+    position: absolute;
+    top: 34%;
+    left: 84%;
+}
+
+.moji-3 {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
+
+.moji-4 {
+    position: absolute;
+    top: 67%;
+    left: 84%;
+}
+
+.moji-5 {
+    position: absolute;
+    top: 84%;
+    left: 67%;
+}
+
+.moji-6 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+.moji-7 {
+    position: absolute;
+    top: 59%;
+    left: 1%;
+    font-size: 7px;
+}
+
+.moji-7::after {
+    position: absolute;
+    top: 59%;
+    left: 1%;
+    font-size: 7px;
+    content: 'タ';
+}
+
+.moji-8 {
+    position: absolute;
+    top: 47%;
+    left: 0%;
+    font-size: 7px;
+}
+
+.moji-8::after {
+    position: absolute;
+    top: 47%;
+    left: 0%;
+    font-size: 7px;
+    content: 'ホ';
+}
+
+.moji-9 {
+    position: absolute;
+    top: 35%;
+    left: 1%;
+    font-size: 7px;
+}
+
+.moji-9::after {
+    position: absolute;
+    top: 33%;
+    left: 2%;
+    font-size: 7px;
+    content: 'リ';
+}
+
+.moji-10 {
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    font-size: 7px;
+}
+
+.moji-10::after {
+    position: absolute;
+    top: 22%;
+    left: 6%;
+    font-size: 7px;
+    content: 'ホ';
+}
+
+.moji-11 {
+    position: absolute;
+    top: 12%;
+    left: 13%;
+    font-size: 7px;
+}
+
+.moji-11::before {
+    position: absolute;
+    top: 12%;
+    left: 13%;
+    font-size: 7px;
+    content: 'ホ';
+}
