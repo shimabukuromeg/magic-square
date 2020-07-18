@@ -1,3 +1,11 @@
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
 .magic-square {
     box-sizing: border-box;
     position: relative;
@@ -5,7 +13,7 @@
     max-height: 200px;
     height: 200px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 50%;
     animation: magicSquare 10s linear infinite
 }
@@ -26,7 +34,7 @@
     position: absolute;
     width: 98%;
     height: 98%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 50%;
 }
 
@@ -37,7 +45,7 @@
     position: absolute;
     width: 96%;
     height: 96%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 50%;
     content: '';
 }
@@ -49,7 +57,7 @@
     left: 16%;
     height: 67%;
     width: 67%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .magic-square-inner-shikaku-2 {
@@ -59,7 +67,7 @@
     left: 16%;
     height: 67%;
     width: 67%;
-    border: 1px solid black;
+    border: 1px solid white;
     transform:rotate(45deg);
 }
 
@@ -70,7 +78,7 @@
     left: 16%;
     height: 67%;
     width: 67%;
-    border: 1px solid black;
+    border: 1px solid white;
     transform:rotate(15deg);
 }
 
@@ -81,7 +89,7 @@
     left: 16%;
     height: 67%;
     width: 67%;
-    border: 1px solid black;
+    border: 1px solid white;
     transform:rotate(30deg);
 }
 
@@ -92,7 +100,7 @@
     left: 16%;
     height: 67%;
     width: 67%;
-    border: 1px solid black;
+    border: 1px solid white;
     transform:rotate(60deg);
 }
 
@@ -103,7 +111,7 @@
     left: 16%;
     height: 67%;
     width: 67%;
-    border: 1px solid black;
+    border: 1px solid white;
     transform:rotate(75deg);
 }
 
