@@ -7,6 +7,16 @@
     width: 100%;
     border: 1px solid black;
     border-radius: 50%;
+    animation: magicSquare 10s linear infinite
+}
+
+@keyframes magicSquare {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }
 
 .magic-square-inner-maru {
@@ -112,3 +122,4 @@
     top: 25%;
     left: 25%;
 }
+
